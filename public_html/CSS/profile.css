@@ -1,6 +1,59 @@
-table *{
-    border:#000000 solid 2px;
+table tr td{
+    border:#cccccc solid 1px;
+    padding:24px;
 }
 table tr th{
-    font-size:78px;
+    font-size:50px;
+}
+#foto_perfil{
+    border-radius:100%;
+    width:228px;
+}
+#profile_anim{
+    position:fixed;
+    background-color:#2558a1;
+    color:#ffffff;
+    top:80px;
+    width:50%;
+    height:50%;
+    padding:12px;
+    left:-47%;
+    transition: ease-in-out all 1s;
+    opacity:45%;
+}
+#profile_anim:hover{
+    left:0px;
+    opacity:99%;
+    top:0;
+    height:100%;
+    transition: ease-in-out all 1s;
+}
+
+#lbl_profile{
+    position:relative;
+    top:120px;
+    font-size:30px;
+    float:right;
+    right:-40px;
+    transform: rotate(-90deg);
+}
+
+#profile_wrapper *{
+    position:relative;
+    margin:auto;
+    left:0;
+    right:0;
+}
+#profile_wrapper a{
+    color:#ffffff;
+    font-size:15px;
+    text-decoration: none;
+    border-radius:25%;
+    transition: ease-in-out all .5s;
+}
+#profile_wrapper a:hover{
+    border-radius:0%;
+    color:#ffff00;
+    font-size:25px;
+    transition: ease-in-out all .5s;
 }

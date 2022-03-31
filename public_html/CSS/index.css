@@ -1,3 +1,8 @@
-/*
-CSS index
-*/
+#chess{
+    position:relative;
+    top:50px;
+    width:320px;
+    height:320px;
+    border:#eeeeee dotted 2.5px;
+    background-color:#000000;
+}
